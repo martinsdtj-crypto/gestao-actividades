@@ -1,0 +1,174 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    padding:20px;
+}
+
+/* CONTAINER */
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* TITULOS */
+h1{
+    margin-bottom:20px;
+    color:#1f2937;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+table th{
+    background:#1f2937;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+table td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+    background:#f8fafc;
+}
+
+/* BOTÕES */
+.btn{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    transition:0.3s;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-primary{ background:#2563eb; color:white; }
+.btn-primary:hover{ background:#1d4ed8; }
+
+.btn-success{ background:#16a34a; color:white; }
+.btn-success:hover{ background:#15803d; }
+
+.btn-danger{ background:#dc2626; color:white; }
+.btn-danger:hover{ background:#b91c1c; }
+
+/* BADGES */
+.badge{
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.badge-pendente{ background:#f59e0b; }
+.badge-andamento{ background:#2563eb; }
+.badge-concluida{ background:#16a34a; }
+
+/* PROGRESS BAR */
+.progress-bar{
+    width:100%;
+    height:25px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+    margin:15px 0;
+}
+
+.progress{
+    height:100%;
+    background:#16a34a;
+    color:white;
+    text-align:center;
+    line-height:25px;
+    font-size:12px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+/* DASHBOARD GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+/* CARD */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h2{
+    font-size:16px;
+    margin-bottom:10px;
+    color:#374151;
+}
+
+.card p{
+    font-size:28px;
+    font-weight:bold;
+    color:#111827;
+}
+
+/* FORM BASE */
+form, .form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* FORM FIELDS */
+.form-group{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input, textarea, select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+/* FORM ROW */
+.form-row{
+    display:flex;
+    gap:15px;
+}
+
+.form-row .form-group{
+    flex:1;
+}
